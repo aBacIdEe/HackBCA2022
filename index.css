@@ -1,0 +1,46 @@
+.title {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#square-container {
+    width: 100%;
+    display: flex;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#squares {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    box-sizing: border-box;
+}
+
+.square {
+    border: 2px solid;
+    min-width: 60px;
+    min-height: 60px;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+#keyboard-container {
+
+}
+
+.keyboard-row {
+
+}
+
+.key {
+
+}
+*/
